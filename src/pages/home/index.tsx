@@ -1,6 +1,7 @@
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
+      <h2>Home</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum corrupti
         adipisci illum iure? Nihil iste minus quae, blanditiis nisi fuga iure
@@ -14,7 +15,7 @@ const Home: React.FC = () => {
         voluptatem doloribus nobis, vitae provident alias cum quas animi
         cupiditate iusto atque?
       </p>
-    </div>
+    </>
   );
 };
 

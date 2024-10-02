@@ -15,7 +15,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Header />
       <div className={styles["nav-main-div"]}>
         <Navigation />
-        <main>{children}</main>
+        <div>
+          <main>{children}</main>
+        </div>
       </div>
     </>
   );

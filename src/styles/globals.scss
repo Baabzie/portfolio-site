@@ -1,19 +1,50 @@
+@import "./colors.scss";
+
+html {
+  height: 100vh;
+  // width: 100%;
+  // padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+}
+
 body {
   margin: 0;
-  width: 100%;
+  border: 1px solid $dark-gray;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  //   font-family: "Oswald", sans-serif;
+  height: 95vh;
+  font-family: "Oswald", sans-serif;
+  // background-color: $background-color;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 16px;
 }
 
 #__next {
   width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: $text-dark;
+}
+
+a:hover {
+  color: $text-dark-hover;
 }

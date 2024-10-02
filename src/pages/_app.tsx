@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
-    router.push("/portfolio");
+    router.push("/home");
   }, []);
 
   return (
